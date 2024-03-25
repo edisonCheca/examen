@@ -1,0 +1,39 @@
+body {
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 300px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.gameboard {
+    background-color: rgb(25, 71, 56);
+    display: flex;
+}
+
+.colorCelesteLeft {
+    color: aqua;
+}
+
+.colorVioletaRight {
+    color: blueviolet;
+}
+
+.colorNaranjaLeft {
+    color: coral;
+}
+
+.colorVerdeRight {
+    color: darkgreen;
+}
+
+button {
+    padding: 11px 30px;
+    border: none;
+    border-radius: 5px;
+    color: chocolate;
+}
